@@ -1,0 +1,6 @@
+version: '3'
+services:
+  mediasearchbot:
+    container_name: mediasearchbot
+    image: botxtg/media-search-bot
+    restart: on-failure
